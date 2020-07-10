@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/icofont.min.css">
+</head>
+<body>
+    <div class="wrapper">
+            <div class="navbar navbar--white">
+                <div class="container">
+                    <div class="navbar__row">
+                        <div class="navbar__column">
+                            <div class="logo">
+                                <a href="/" class="logo__span">
+                                    <img class="logo__img" src="./assets/img/logo_color.svg" alt=vian_logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar__column" id="navbar-act">
+                            <ul class="navbar__list">
+                                <li class="navbar__item">
+                                    <a href="/" class="navbar__link">
+                                        Главная
+                                    </a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="/products.html" class="navbar__link">
+                                        Продукты
+                                    </a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="/services.html" class="navbar__link">
+                                         Услуги
+                                    </a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="/vacancies.html" class="navbar__link">
+                                        Вакансии
+                                    </a>
+
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="/contacts.html" class="navbar__link">
+                                        Контакты
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar__column">
+                            <div class="langs-slide">
+                                <a href="#" class="dropdown-trigger" data-target="dropdown-1">
+                                    <span class="langs__span">RU</span>
+                                    <i class="icofont-simple-down"></i>
+                                </a>
+                                <ul id='dropdown-1' class='dropdown-content'>
+                                    <li><a href="#!"><span>RU</span></a></li>
+                                    <li><a href="#!">UK</a></li>
+                                    <li><a href="#!">PL</a></li>
+                                    <li><a href="#!">EN</a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <section class="services main-page">
+        <div class="services__art art">
+            <img src="/assets/img/serv-main.png" alt="services-art" class="vacancies__img">
+        </div>
+        <div class="container">
+            <div class="services__common">
+                <h2 class="title--big services__title">Наши услуги</h2>
+                <div class="services__categories">
+                    <ul class="services__list collapsible" data-collapsible="expandable">
+                        <li class="services__item active">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header"><span>Аналитические</span> услуги</h3>
+                                <i class="icofont-close-line services__close close-active"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/police.png" alt=""></div>
+                                        <div class="services-box__text"><span>Анализ таможенной
+                                            статистики</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/stats.png" alt=""></div>
+                                        <div class="services-box__text"><span>Аналитика
+                                            и прогнозирование продаж</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/computers.png" alt=""></div>
+                                        <div class="services-box__text"><span>Бенчмаркинг</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header">Услуги <span>по увеличению продаж</span></h3>
+                                <i class="icofont-close-line services__close"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-sales_1.png" alt=""></div>
+                                        <div class="services-box__text"><span>Продажа товаров
+                                            в торговые сети</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-sales_2.png" alt=""></div>
+                                        <div class="services-box__text"><span>Управление
+                                            ключевыми клиентами</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-sales_3.png" alt=""></div>
+                                        <div class="services-box__text"><span>Развитие сети дистрибьюции</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-sales_4.png" alt=""></div>
+                                        <div class="services-box__text"><span>Обслуживание клиентов</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header">Услуги <span>по увеличению ВЭД</span></h3>
+                                <i class="icofont-close-line services__close"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-VED_1.png" alt=""></div>
+                                        <div class="services-box__text"><span>Услуги экспортных
+                                            продаж</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-VED_2.png" alt=""></div>
+                                        <div class="services-box__text"><span>Услуги подбора поставщиков</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-VED_3.png" alt=""></div>
+                                        <div class="services-box__text"><span>Сопровождение экспорта</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-VED_4.png" alt=""></div>
+                                        <div class="services-box__text"><span>Сопровождение импорта</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-VED_5.png" alt=""></div>
+                                        <div class="services-box__text"><span>Представительские услуги</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header"><span>Консалтинговые</span> услуги</h3>
+                                <i class="icofont-close-line services__close"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-consult_1.png" alt=""></div>
+                                        <div class="services-box__text"><span>Разработка стратегий развития</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-consult_2.png" alt=""></div>
+                                        <div class="services-box__text"><span>Разработка стратегий go2market</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-consult_3.png" alt=""></div>
+                                        <div class="services-box__text"><span>Разработка моделей интернационализации</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-consult_4.png" alt=""></div>
+                                        <div class="services-box__text"><span>Категорийный менеджмент и стратегия закупки</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header"><span>Маркетинговые</span> услуги</h3>
+                                <i class="icofont-close-line services__close"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-market_1.png" alt=""></div>
+                                        <div class="services-box__text"><span>Исследования заграничных рынков</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-market_2.png" alt=""></div>
+                                        <div class="services-box__text"><span>Исcледования потребителей</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-market_3.png" alt=""></div>
+                                        <div class="services-box__text"><span>Маркетинговые исследования</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-market_4.png" alt=""></div>
+                                        <div class="services-box__text"><span> 
+                                            Позиционирование</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-market_5.png" alt=""></div>
+                                        <div class="services-box__text"><span> 
+                                            Продвижение</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-market_6.png" alt=""></div>
+                                        <div class="services-box__text"><span>Разработка новых продуктов</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-market_7.png" alt=""></div>
+                                        <div class="services-box__text"><span>Адаптация продуктов на заграничных рынках</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header"><span>Информационные</span> услуги и базы данных</h3>
+                                <i class="icofont-close-line services__close"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-info_1.png" alt=""></div>
+                                        <div class="services-box__text"><span>Базы данных импортеров</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-info_2.png" alt=""></div>
+                                        <div class="services-box__text"><span>Базы данных экспортеров</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-info_3.png" alt=""></div>
+                                        <div class="services-box__text"><span>Базы данных товаров для импорта
+                                            и экспорта</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-info_4.png" alt=""></div>
+                                        <div class="services-box__text"><span>Базы контактов потенциальных клиентов</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-info_5.png" alt=""></div>
+                                        <div class="services-box__text"><span>Энциклопедия торговых сетей</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header">Услуги <span>контент и дизайн</span></h3>
+                                <i class="icofont-close-line services__close"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-design_1.png" alt=""></div>
+                                        <div class="services-box__text"><span>Айдентика
+                                            и брендинг</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-design_2.png" alt=""></div>
+                                        <div class="services-box__text"><span>Дизайн</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-design_3.png" alt=""></div>
+                                        <div class="services-box__text"><span>Разработка маркетинг-китов
+                                            и презентаций</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-design_4.png" alt=""></div>
+                                        <div class="services-box__text"><span> 
+                                            Разработка сайтов
+и landing page</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-design_5.png" alt=""></div>
+                                        <div class="services-box__text"><span> 
+                                            
+Разработка упаковки</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-design_6.png" alt=""></div>
+                                        <div class="services-box__text"><span>Копирайтинг</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-design_7.png" alt=""></div>
+                                        <div class="services-box__text"><span>
+                                            Перевод</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header"><span>Финансовые</span> услуги</h3>
+                                <i class="icofont-close-line services__close"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-finance_1.png" alt=""></div>
+                                        <div class="services-box__text"><span>Финансовый аутсорсинг</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-finance_2.png" alt=""></div>
+                                        <div class="services-box__text"><span>Лизинг сотрудников</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="collapsible-header ">
+                                <h3 class="services__header"><span>Юридические</span> услуги</h3>
+                                <i class="icofont-close-line services__close"></i></div>
+                            <div class="collapsible-body
+                            ">
+                                <div class="services__body">
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-law_1.png" alt=""></div>
+                                        <div class="services-box__text"><span>Юридические консультации</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-law_2.png" alt=""></div>
+                                        <div class="services-box__text"><span>Апостиль
+                                            и легализация</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-law_3.png" alt=""></div>
+                                        <div class="services-box__text"><span>Представительство иностранных фирм
+                                            в судах Украины</span></div>
+                                    </div>
+                                    <div class="services-box">
+                                        <div class="services-box__img"><img src="./assets/img/serv-law_4.png" alt=""></div>
+                                        <div class="services-box__text"><span>Представительство иностранных фирм
+                                            в госзакупках Украины</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+        <footer class="main-footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__column">
+                        <ul class="footer__list logo-col">
+                            <li class="logo-col__item">
+                                <a href="/">
+                                    <img src="./assets/img/logo_black.svg" alt="logo-footer">
+                                </a>
+                            </li>
+                            <li class="logo-col__item"><span>&copy; 2020 vian-europe.eu</span></li>
+                            <li class="logo-col__item"><a href="/products.html">Для экспортеров</a></li>
+                            <li class="logo-col__item"><a href="/products.html">Для импортеров</a></li>
+                            <li class="logo-col__item"><a href="/products.html">Комплексные решения</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <ul class="footer__list menu-col">
+                            <li class="menu-col__item"><a href="/">Главная</a></li>
+                            <li class="menu-col__item"><a href="/products.html">Продукты</a></li>
+                            <li class="menu-col__item"><a href="/services.html">Услуги</a></li>
+                            <li class="menu-col__item"><a href="/vacancies.html">Вакансии</a></li>
+                            <li class="menu-col__item"><a href="/contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <ul class="footer__list contacts-col">
+                            <li class="contacts-col__item"><span>Свяжитесь с нами</span></li>
+                            <li class="contacts-col__item"><span>+380 (044) 561 91 90</span></li>
+                            <li class="contacts-col__item"><span>info@vian-europe.eu</span></li>
+                            <li class="contacts-col__item"><span>Пер. Ясиноватский 11, 2</span></li>
+                            <li class="contacts-col__item"><span>Киев, Украина</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/js/materialize.min.js"></script>
+        <script src="/js/jquery.mask.min.js"></script>
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/index.js"></script>
+    </body>
+</html>

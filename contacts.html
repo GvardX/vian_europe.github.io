@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/icofont.min.css">
+</head>
+<body>
+    <div class="wrapper">
+            <div class="navbar navbar--white">
+                <div class="container">
+                    <div class="navbar__row">
+                        <div class="navbar__column">
+                            <div class="logo">
+                                <a href="/" class="logo__span">
+                                    <img class="logo__img" src="./assets/img/logo_color.svg" alt=vian_logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar__column" id="navbar-act">
+                            <ul class="navbar__list">
+                                <li class="navbar__item">
+                                    <a href="/" class="navbar__link">
+                                        Главная
+                                    </a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="/products.html" class="navbar__link">
+                                        Продукты
+                                    </a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="/services.html" class="navbar__link">
+                                         Услуги
+                                    </a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="/vacancies.html" class="navbar__link">
+                                        Вакансии
+                                    </a>
+
+                                </li>
+                                <li class="navbar__item">
+                                    <a href="/contacts.html" class="navbar__link">
+                                        Контакты
+                                    </a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar__column">
+                            <div class="langs-slide">
+                                <a href="#" class="dropdown-trigger" data-target="dropdown-1">
+                                    <span class="langs__span">RU</span>
+                                    <i class="icofont-simple-down"></i>
+                                </a>
+                                <ul id='dropdown-1' class='dropdown-content'>
+                                    <li><a href="#!"><span>RU</span></a></li>
+                                    <li><a href="#!">UK</a></li>
+                                    <li><a href="#!">PL</a></li>
+                                    <li><a href="#!">EN</a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <section class="contacts main-page">
+        <div class="contacts__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10170.614002507!2d30.50423703121338!3d50.410294845683495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf2e36c85d1b%3A0x65f40a15e6e4cec0!2z0K_RgdC40L3QvtCy0LDRgtGB0LrQuNC5INC_0LXRgC4sIDExLCDQmtC40LXQsiwg0KPQutGA0LDQuNC90LAsIDAyMDAw!5e0!3m2!1sru!2sru!4v1594402696085!5m2!1sru!2sru" width="1920" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="contacts__form">
+            <div class="container">
+                <h2 class="title--big contacts__title">Наши контакты</h2>
+                <div class="form-work form--contacts">
+                    <div class="form__left form-work__part">
+                        <h3 class="title--medium form__title-left">Киев, Украина</h3>
+                        <ul class="contacts__list">
+                            <div class="contacts__item">Пер. Ясиноватский 11, кв. 2</div>
+                            <div class="contacts__item">03069</div>
+                            <div class="contacts__item"><span>+380 (044) 561 91 90</span></div>
+                            <div class="contacts__item"><span>info@vian-europe.eu</span></div>
+                        </ul>
+                    </div>
+                    <div class="form-right form-work__part">
+                        <form id="form-main" action="mail.php" method="POST">
+                            <h4 class="title--small form__title-right">Задать вопрос</h4>
+                            <input type="text" class="form__input validate" name="user_name" placeholder="ФИО">
+                            <input type="email" class="form__input validate" name="user_email" placeholder="Электронная почта">
+                            <textarea name="user_text" class="form__input form__input-text" placeholder="Текст вопроса"></textarea>
+                            <div class="form__buttons">
+                                <input type="submit" class="main-button main-button--blue form__submit" value="Отправить">
+                            </div>
+                            <p class="form__conditions">Нажимая кнопку «Отправить» я даю согласие
+                                на обработку своих персональных данных.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <footer class="main-footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__column">
+                        <ul class="footer__list logo-col">
+                            <li class="logo-col__item">
+                                <a href="/">
+                                    <img src="./assets/img/logo_black.svg" alt="logo-footer">
+                                </a>
+                            </li>
+                            <li class="logo-col__item"><span>&copy; 2020 vian-europe.eu</span></li>
+                            <li class="logo-col__item"><a href="/products.html">Для экспортеров</a></li>
+                            <li class="logo-col__item"><a href="/products.html">Для импортеров</a></li>
+                            <li class="logo-col__item"><a href="/products.html">Комплексные решения</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <ul class="footer__list menu-col">
+                            <li class="menu-col__item"><a href="/">Главная</a></li>
+                            <li class="menu-col__item"><a href="/products.html">Продукты</a></li>
+                            <li class="menu-col__item"><a href="/services.html">Услуги</a></li>
+                            <li class="menu-col__item"><a href="/vacancies.html">Вакансии</a></li>
+                            <li class="menu-col__item"><a href="/contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <ul class="footer__list contacts-col">
+                            <li class="contacts-col__item"><span>Свяжитесь с нами</span></li>
+                            <li class="contacts-col__item"><span>+380 (044) 561 91 90</span></li>
+                            <li class="contacts-col__item"><span>info@vian-europe.eu</span></li>
+                            <li class="contacts-col__item"><span>Пер. Ясиноватский 11, 2</span></li>
+                            <li class="contacts-col__item"><span>Киев, Украина</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/js/materialize.min.js"></script>
+        <script src="/js/jquery.mask.min.js"></script>
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/index.js"></script>
+    </body>
+</html>
