@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="materialize.min.css"> -->
     <link rel="stylesheet" href="./assets/fonts/icofont.min.css">
 </head>
 <body>
@@ -76,7 +77,7 @@
             <div class="products__info prod-info">
                 <h2 class="title--big prod-info__title">Наши продукты</h2>
                 <div class="prod-info__packs">
-                    <div class="product-box">
+                    <div class="product-box" id="for-export">
                         <div class="product-box__img"><img src="./assets/img/flying_grg.jpg" alt=""></div>
                         <div class="product-box__text">
                             <h3 class="product-box__title">Пакеты услуг <span>для экспортеров</span></h3>
@@ -84,7 +85,7 @@
                                 все функции экспорта</p>
                         </div>
                     </div>
-                    <div class="product-box">
+                    <div class="product-box" id="for-import">
                         <div class="product-box__img"><img src="./assets/img/moving_boxes.png" alt=""></div>
                         <div class="product-box__text">
                             <h3 class="product-box__title">Пакеты услуг <span>для импортеров</span></h3>
@@ -94,9 +95,9 @@
                 </div>
             </div>
         </div>
-        <div class="proucts__decisions decisions-block">
+        <div class="proucts__decisions decisions-block" >
             <div class="container">
-                <h3 class="decisions-block__title">
+                <h3 class="decisions-block__title" id="complex">
                     Комплексные решения
                 </h3>
                 <div class="decisions-block__list">
@@ -136,9 +137,9 @@
                                 </a>
                             </li>
                             <li class="logo-col__item"><span>&copy; 2020 vian-europe.eu</span></li>
-                            <li class="logo-col__item"><a href="products.html">Для экспортеров</a></li>
-                            <li class="logo-col__item"><a href="products.html">Для импортеров</a></li>
-                            <li class="logo-col__item"><a href="products.html">Комплексные решения</a></li>
+                            <li class="logo-col__item"><a href="products.html#for-export">Для экспортеров</a></li>
+                            <li class="logo-col__item"><a href="products.html#for-export">Для импортеров</a></li>
+                            <li class="logo-col__item"><a href="products.html#complex">Комплексные решения</a></li>
                         </ul>
                     </div>
                     <div class="footer__column">
@@ -164,9 +165,9 @@
         </footer>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="./js/materialize.min.js"></script>
-        <script src="./js/jquery.mask.min.js"></script>
-        <script src="./js/jquery.validate.min.js"></script>
-        <script src="./js/index.js"></script>
+        <script src="/js/materialize.min.js"></script>
+        <script src="/js/jquery.mask.min.js"></script>
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/index.js"></script>
     </body>
 </html>

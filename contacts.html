@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="materialize.min.css"> -->
     <link rel="stylesheet" href="./assets/fonts/icofont.min.css">
 </head>
 <body>
@@ -72,7 +73,7 @@
         <div class="contacts__map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10170.614002507!2d30.50423703121338!3d50.410294845683495!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf2e36c85d1b%3A0x65f40a15e6e4cec0!2z0K_RgdC40L3QvtCy0LDRgtGB0LrQuNC5INC_0LXRgC4sIDExLCDQmtC40LXQsiwg0KPQutGA0LDQuNC90LAsIDAyMDAw!5e0!3m2!1sru!2sru!4v1594402696085!5m2!1sru!2sru" width="1920" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-        <div class="contacts__form">
+        <div class="contacts__form" id="contact-form">
             <div class="container">
                 <h2 class="title--big contacts__title">Наши контакты</h2>
                 <div class="form-work form--contacts">
@@ -85,7 +86,7 @@
                             <div class="contacts__item"><span>info@vian-europe.eu</span></div>
                         </ul>
                     </div>
-                    <div class="form-right form-work__part">
+                    <div class="form-right form-work__part" >
                         <form id="form-main" action="mail.php" method="POST">
                             <h4 class="title--small form__title-right">Задать вопрос</h4>
                             <input type="text" class="form__input validate" name="user_name" placeholder="ФИО">
@@ -113,9 +114,9 @@
                                 </a>
                             </li>
                             <li class="logo-col__item"><span>&copy; 2020 vian-europe.eu</span></li>
-                            <li class="logo-col__item"><a href="products.html">Для экспортеров</a></li>
-                            <li class="logo-col__item"><a href="products.html">Для импортеров</a></li>
-                            <li class="logo-col__item"><a href="products.html">Комплексные решения</a></li>
+                            <li class="logo-col__item"><a href="products.html#for-export">Для экспортеров</a></li>
+                            <li class="logo-col__item"><a href="products.html#for-export">Для импортеров</a></li>
+                            <li class="logo-col__item"><a href="products.html#complex">Комплексные решения</a></li>
                         </ul>
                     </div>
                     <div class="footer__column">
@@ -141,9 +142,9 @@
         </footer>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="./js/materialize.min.js"></script>
-        <script src="./js/jquery.mask.min.js"></script>
-        <script src="./js/jquery.validate.min.js"></script>
-        <script src="./js/index.js"></script>
+        <script src="/js/materialize.min.js"></script>
+        <script src="/js/jquery.mask.min.js"></script>
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/index.js"></script>
     </body>
 </html>
