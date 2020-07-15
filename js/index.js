@@ -28,7 +28,9 @@ function shineLinks(id){
   try{
       let el = document.getElementById(id).getElementsByTagName('a');
       let url = document.location.href;
+      console.log('url', url)
       for (var i=0; i<el.length; i++){
+        console.log('el', el[i].href)
         if (url == el[i].href){
               el[i].className += ' act';
           } else {
