@@ -28,6 +28,10 @@ function shineLinks(id){
   try{
       let el = document.getElementById(id).getElementsByTagName('a');
       let url = document.location.href;
+      if(url.indexOf('#') > 0 ) {
+        url = url.substring(url.indexOf('#'), 0)
+        
+      }
       console.log('url', url)
       for (var i=0; i<el.length; i++){
         console.log('el', el[i].href)
